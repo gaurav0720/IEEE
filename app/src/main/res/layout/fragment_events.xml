@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsFragment"
+    android:paddingTop="30sp"
+    android:paddingBottom="30sp"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See your college events here"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/v_font_light" />
+
+    <Spinner
+        android:id="@+id/collegeList"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:id="@+id/seeSelectedCollegeEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="See College Events"
+        android:textColor="@color/white"
+        android:background="@drawable/login_button"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="15sp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_weight="40"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:layout_weight="20"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_weight="40"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search particular date event here"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/v_font_light"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select College"
+        android:textSize="18sp"
+        android:fontFamily="@font/v_font_light"
+        android:layout_marginTop="15sp"/>
+
+    <Spinner
+        android:id="@+id/selectCollegeList"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="18sp"
+        android:fontFamily="@font/v_font_light"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:id="@+id/eventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="00-00-0000 (Click here)"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:fontFamily="@font/v_font_light"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:id="@+id/seeSelectedCollegeEventsAsPerDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Search College Events"
+        android:textColor="@color/white"
+        android:background="@drawable/login_button"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+</LinearLayout>

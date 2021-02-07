@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15sp">
+
+                    <ImageView
+                        android:id="@+id/profileImageOne"
+                        android:layout_width="130sp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/boss"
+                        android:layout_centerInParent="true"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15sp"
+                android:layout_marginTop="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First Name:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showFirstName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idone"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="start"
+                            android:layout_marginStart="5dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idtwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Middle Name:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showMiddleName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idtwo"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="start"
+                            android:layout_marginStart="5dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idthree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Last Name:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showLastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idthree"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/v_font_light"
+                            android:gravity="start"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idsix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="College Name:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showCollegeName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idsix"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="start"
+                            android:layout_marginStart="5dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idfour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email Id:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showEmailAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idfour"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="start"
+                            android:layout_marginStart="5dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:id="@+id/idfive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sec. Question:"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/black"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/showSecurityQuestion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/idfive"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/v_font_light"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="start"
+                            android:layout_marginStart="5dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

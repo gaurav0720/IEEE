@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IEEE</string>
+    <string-array name="types">
+        <item>Student</item>
+        <item>Professional</item>
+    </string-array>
+
+    <string-array name="securityQuestions">
+        <item>What was street name you lived in as a child?</item>
+        <item>What were the last four digits of your childhood telephone number?</item>
+        <item>What was name of primary school you attended?</item>
+        <item>What was name of pet you have?</item>
+        <item>What are the last five digits of your mobile number?</item>
+    </string-array>
+</resources>

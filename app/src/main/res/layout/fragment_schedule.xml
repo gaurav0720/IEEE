@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ScheduleFragment"
+    android:orientation="vertical"
+    android:paddingTop="30sp"
+    android:paddingBottom="30sp"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule your Google Meet"
+        android:textSize="18sp"
+        android:fontFamily="@font/v_font_light"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:id="@+id/meetingTitle"
+        android:layout_marginTop="15sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Meeting Title"
+            android:inputType="textCapWords"
+            android:textColor="@color/black"
+            android:fontFamily="@font/v_font_light"
+            android:textSize="18sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Expert Talk Resource Person"
+        android:textSize="17sp"
+        android:fontFamily="@font/v_font_light"
+        android:layout_marginTop="15sp"
+        />
+
+    <Spinner
+        android:id="@+id/chooseETRPerson"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:id="@+id/meetingDescription"
+        android:layout_marginTop="15sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Meeting Description"
+            android:inputType="textCapWords"
+            android:textColor="@color/black"
+            android:fontFamily="@font/v_font_light"
+            android:textSize="18sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:id="@+id/meetingLocation"
+        android:layout_marginTop="15sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Meeting Location"
+            android:inputType="textCapWords"
+            android:textColor="@color/black"
+            android:fontFamily="@font/v_font_light"
+            android:textSize="18sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/scheduleMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Meeting"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/v_font_light"
+        android:background="@drawable/login_button"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"/>
+
+</LinearLayout>

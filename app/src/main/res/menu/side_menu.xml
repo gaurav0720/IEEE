@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    
+    <item
+        android:id="@+id/share"
+        android:enabled="true"
+        android:icon="@drawable/ic_share"
+        android:title="Share App"/>
+
+    <item
+        android:id="@+id/developer"
+        android:enabled="true"
+        android:icon="@drawable/ic_developer"
+        android:title="Developer"/>
+
+    <item
+        android:id="@+id/logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_bsend"
+        android:title="Logout"/>
+
+</menu>
